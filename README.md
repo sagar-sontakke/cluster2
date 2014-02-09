@@ -46,6 +46,7 @@ Contents
 	  to loop, whether to broadcast/unicast messages and display intervals (after how much time to 
 	  show the current status)
 	- The functions of these parameters are mentioned in the comments
+	- To print the details of the tests, (how many nodes in cluster, how many messages, kind of messages broadcast/unicast/both, total sent, total received and total expected messages) set the flag "PRINT_DETAILS" in the cluster_test.go file to true.
 	- To run, hit the following command:  
 
 			$ go test github.com/sagar-sontakke/cluster  
